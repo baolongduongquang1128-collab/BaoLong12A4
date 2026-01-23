@@ -1,4 +1,7 @@
 h1 {color: blue; text-align: center;}
 h2 {color: purple;}
-      h3{color: blue;}
-      td{padding: 20}
+h3{color: blue;}
+td{padding: 20}
+.tieude {color:purple;
+       font-size:30pt;
+       top-margin:20pt}
