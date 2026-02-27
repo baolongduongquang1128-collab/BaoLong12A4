@@ -6,13 +6,13 @@
         background-color: lightblue;
 }
 .menu{ flex: 5%; 
-      background-color: darkblue;
+      background-color: lightpink;
 }
 .content{ flex: 70%;
          background-color: white;
 }
 .footer{ flex: 10%;
-        background-color: darkblue;
+        background-color: lightblue;
 }
 
 h1 {color: blue; text-align: center;}
