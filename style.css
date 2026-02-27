@@ -8,9 +8,14 @@
 .menu{ flex: 5%; 
       background-color: lightpink;
       display: flex;
+      color: white;
 }
 .menu a{
            padding: 15px 20px; 
+}
+.menu hover{
+           background-color: lightgray;
+           color: blue;
 }
 .content{ flex: 70%;
          background-color: white;
