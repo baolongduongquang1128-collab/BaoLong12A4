@@ -12,7 +12,9 @@
       color: white;
 }
 .menu a{
-           padding: 15px 20px; 
+           padding: 15px 20px;
+           color: white;
+           text-decoration: none;
 }
 .menu a:hover{
            background-color: lightblue;
