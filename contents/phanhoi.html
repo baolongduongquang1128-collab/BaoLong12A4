@@ -3,8 +3,17 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <b>Cảm ơn bạn đã tham gia</b> <br>
-    Chúng tôi đã ghi nhận hồ sơ của bạn và sẽ phản hồi trong thời gian sắp tới.
-    
+    <p id="kq"></p>
+    <script>
+      let pp=new URLSearchParams(window.locatioj.search);
+      let ten=pp.get("txtName");
+      let yk=pp.get("txtYk");
+      document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten
+        + đã góp ý <br><br> Chúng tôi xin phép ghi nhận ý kiến của bạn
+        :<br>" + yk;
+    </script>
+    <form action="B7_Nv2.html">
+      <input type="submit" name="back" value="Quay lại">
+    </form>
   </body>
 </html>
